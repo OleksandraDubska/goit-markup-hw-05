@@ -103,15 +103,18 @@
                 <ul class="list functions-box">
                     <li class="function-item">
                         <img src="./images/box-1.jpg" alt="Десктопні застосунки" width="370">
-                        <p class="function-description">Десктопні застосунки</p>
+                        <div class="function-overlay">
+                            <p class="function-description">Десктопні застосунки</p></div>
                     </li>
                     <li class="function-item">
                         <img src="./images/box-2.jpg" alt="Мобільні застосунки" width="370">
-                        <p class="function-description">Мобільні застосунки</p>
+                        <div class="function-overlay">
+                            <p class="function-description">Мобільні застосунки</p></div>
                     </li>
                     <li class="function-item">
                         <img src="./images/box-3.jpg" alt="Дизайнерські рішення" width="370">
-                        <p class="function-description">Дизайнерські рішення</p>
+                        <div class="function-overlay">
+                            <p class="function-description">Дизайнерські рішення</p></div>
                     </li>
                 </ul>
             </div>
@@ -327,8 +330,8 @@
     <!-- Модальне вікно -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="modal-button" data-modal-close>
-                <svg class="modal-icon">
+            <button type="button" class="close-button" data-modal-close>
+                <svg class="icon-close">
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
